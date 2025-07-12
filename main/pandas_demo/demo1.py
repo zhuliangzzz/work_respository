@@ -72,7 +72,7 @@ df.at[dates[0], 'A'] = 0
 df.iat[0, 1] = 0
 print(df)
 df.loc[:, 'D'] = np.array([5] * len(df))
-print(df)
+print('df', df)
 df2 = df.copy()
 df2[df2 > 0] = -df2
 print(df2)
@@ -86,4 +86,4 @@ print(df.mean())
 print(df.mean(axis=1))
 s = pd.Series([1, 3, 5, np.nan, 6, 8], index=dates).shift(2)
 print(s)
-df.sub()
+print(df.sub(s, axis=0))
