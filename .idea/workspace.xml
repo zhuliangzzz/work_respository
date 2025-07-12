@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5810ec67-6b12-4fc9-8e26-d2909a8bd019" name="Changes" comment="1" />
+    <list default="true" id="5810ec67-6b12-4fc9-8e26-d2909a8bd019" name="Changes" comment="1">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,13 +54,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "E:/project",
+    "last_opened_file_path": "D:/Program Files/Git/usr/bin/ssh.exe",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "ssh.settings",
+    "settings.editor.selected.configurable": "vcs.Subversion.SSH",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -219,6 +221,16 @@
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="SSH_CONFIG" />
+    <option name="myConnectionId" value="git@github.com:22 key" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\99234\AppData\Roaming\Subversion</configuration>
+    <option name="sshConnectionType" value="PASSWORD" />
+    <option name="sshExecutablePath" value="D:\Program Files\Git\usr\bin\ssh.exe" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5810ec67-6b12-4fc9-8e26-d2909a8bd019" name="Changes" comment="" />
@@ -236,7 +248,7 @@
       <workItem from="1752132254610" duration="665000" />
       <workItem from="1752203563991" duration="10470000" />
       <workItem from="1752224520246" duration="2217000" />
-      <workItem from="1752308428581" duration="2030000" />
+      <workItem from="1752308428581" duration="3573000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -254,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752311287010</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1">
+      <option name="closed" value="true" />
+      <created>1752311532103</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1752311532103</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
