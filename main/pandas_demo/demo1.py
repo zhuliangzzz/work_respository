@@ -87,3 +87,66 @@ print(df.mean(axis=1))
 s = pd.Series([1, 3, 5, np.nan, 6, 8], index=dates).shift(2)
 print(s)
 print(df.sub(s, axis=0))
+print(df.agg(lambda x: np.mean(x) * 5.6))
+print(df.transform(lambda x: x * 100))
+pd_series = pd.Series(np.random.randint(0, 7, size=10))
+print(pd_series)
+print(pd_series.value_counts())
+# 字符串操作
+s = pd.Series(["A", "B", "C", "Aaba", "Baca", np.nan, "CABA", "dog", "cat"])
+print(s.str.lower())
+
+df = pd.DataFrame(np.random.randn(10, 4))
+print(df)
+pieces = [df[:3], df[3:7], df[7:]]
+print(pd.concat(pieces))
+
+# join
+left = pd.DataFrame({"key": ["foo", "foo"], "lval": [1, 2]})
+right = pd.DataFrame({"key": ["foo", "foo"], "rval": [4, 5]})
+print(pd.merge(left, right, on='key'))
+left = pd.DataFrame({"key": ["foo", "bar"], "lval": [1, 2]})
+right = pd.DataFrame({"key": ["foo", "bar"], "rval": [4, 5]})
+print(pd.merge(left, right, on='key'))
+
+# group by
+df = pd.DataFrame({
+    "A": ["foo", "bar", "foo", "bar", "foo", "bar", "foo", "foo"],
+    "B": ["one", "one", "two", "three", "two", "two", "one", "three"],
+    "C": np.random.randn(8),
+    "D": np.random.randn(8),
+})
+
+print(df)
+print(df.groupby("A")[["C", "D"]].sum())
+print(df.groupby(["A", "B"]).sum())
+
+# stack
+arrays = [
+    ["bar", "bar", "baz", "baz", "foo", "foo", "qux", "qux"],
+    ["one", "two", "one", "two", "one", "two", "one", "two"],
+]
+Index = pd.MultiIndex.from_arrays(arrays, names=["first", "second"])
+df = pd.DataFrame(np.random.randn(8, 2), index=Index, columns=['A', 'B'])
+print('-' * 30)
+print(df)
+df2 = df[:4]
+print(df2)
+stacked = df2.stack()
+print(stacked)
+print(stacked.unstack())
+print(stacked.unstack(1))
+print(stacked.unstack(0))
+
+# pivot table
+df = pd.DataFrame({
+    "A": ["one", "one", "two", "three"] * 3,
+    "B": ["A", "B", "C"] * 4,
+    "C": ["foo", "foo", "foo", "bar", "bar", "bar"] * 2,
+    "D": np.random.randn(12),
+    "E": np.random.randn(12)
+})
+print(df)
+print(pd.pivot_table(df, values='D', index=["A", "B"], columns=["C"]))
+rng = pd.date_range("1/1/2012", periods=100, freq="s")
+print(rng)
