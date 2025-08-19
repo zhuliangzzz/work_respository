@@ -138,6 +138,7 @@ class ZipDir(QWidget, ui.Ui_Form):
         password = self.lineEdit_pwd.text()
         if not folder_path:
             QMessageBox.warning(self, 'warning', '请选择文件/文件夹进行压缩!')
+            return
         res = encrypt_folder(folder_path, '%s.zip' % folder_path, password)
         if res:
             QMessageBox.information(self, 'tips', '压缩成功！压缩文件为%s.zip' % folder_path)

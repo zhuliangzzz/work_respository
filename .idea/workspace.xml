@@ -5,29 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5810ec67-6b12-4fc9-8e26-d2909a8bd019" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/zip/PictureOpt.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/zip/ZipDir.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/zip/ZipDir.spec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/zip/ZipDirUI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/zip/ZipDirUI.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/zip/res.qrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/zip/res/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/zip/res/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/zip/res/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/zip/res/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/zip/res/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/zip/res/banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/zip/res/demo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/zip/res/demo_old.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/zip/res/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/zip/res/tian.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/zip/res_rc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/zip/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/zip/tian.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/pandas_demo/basic_function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/pillow/PictureOpt20250818.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/pillow/PictureOptUI20250818.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/pillow/demo6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/pillow/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/pillow/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/pillow/result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/pillow/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/pillow/PictureOpt.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/pillow/PictureOpt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/pillow/PictureOptUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/pillow/PictureOptUI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/pillow/PictureOptUI.ui" beforeDir="false" afterPath="$PROJECT_DIR$/main/pillow/PictureOptUI.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/zip/ZipDir.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/zip/ZipDir.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +46,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/main/pandas_demo/basic_function.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -66,42 +60,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Python.ZipDir.executor&quot;: &quot;Run&quot;,
-    &quot;Python.demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.demo1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.demo2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.demo5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.icon_browser.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.zipfile_aes.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/project/main/zip&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python.PictureOpt.executor": "Run",
+    "Python.ZipDir.executor": "Run",
+    "Python.basic_function.executor": "Run",
+    "Python.data_structures.executor": "Run",
+    "Python.demo.executor": "Run",
+    "Python.demo1.executor": "Run",
+    "Python.demo2 (1).executor": "Run",
+    "Python.demo2.executor": "Run",
+    "Python.demo3 (1).executor": "Run",
+    "Python.demo3.executor": "Run",
+    "Python.demo4.executor": "Run",
+    "Python.demo5.executor": "Run",
+    "Python.demo6.executor": "Run",
+    "Python.icon_browser.executor": "Run",
+    "Python.main (1).executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.zipfile_aes.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "E:/project/main/pillow",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\main\pillow" />
+      <recent name="E:\project\main\pandas_demo" />
       <recent name="E:\project\main\zip" />
       <recent name="E:\project\main\zip\res" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\project\main\pillow\images" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.ZipDir">
-    <configuration name="ZipDir" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.PictureOpt">
+    <configuration name="PictureOpt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,12 +117,58 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main/zip" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main/pillow" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/zip/ZipDir.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/pillow/PictureOpt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="demo3 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main/pillow" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/pillow/demo3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="demo6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main/pillow" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/pillow/demo6.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,29 +200,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main/zip" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/zip/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="project" />
       <option name="ENV_FILES" value="" />
@@ -179,35 +209,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main/zip" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main/pillow" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/zip/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="zipfile_aes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="D:/ProgramData/anaconda3/envs/Python310/Lib/site-packages/pyzipper" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:/ProgramData/anaconda3/envs/Python310/Lib/site-packages/pyzipper/zipfile_aes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/pillow/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -218,11 +225,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ZipDir" />
+        <item itemvalue="Python.PictureOpt" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.demo6" />
         <item itemvalue="Python.icon_browser" />
-        <item itemvalue="Python.zipfile_aes" />
-        <item itemvalue="Python.main" />
+        <item itemvalue="Python.demo3 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -267,6 +274,25 @@
       <workItem from="1752719517363" duration="11126000" />
       <workItem from="1752751363415" duration="3709000" />
       <workItem from="1752808897266" duration="1219000" />
+      <workItem from="1752826417140" duration="1797000" />
+      <workItem from="1753062658148" duration="6897000" />
+      <workItem from="1753155853560" duration="614000" />
+      <workItem from="1753231810608" duration="11307000" />
+      <workItem from="1753339962532" duration="3305000" />
+      <workItem from="1753348162495" duration="2933000" />
+      <workItem from="1753434275652" duration="2371000" />
+      <workItem from="1753494551285" duration="6427000" />
+      <workItem from="1753670981273" duration="6056000" />
+      <workItem from="1753691795668" duration="1311000" />
+      <workItem from="1753757442725" duration="7115000" />
+      <workItem from="1753775771343" duration="167000" />
+      <workItem from="1753776962751" duration="4932000" />
+      <workItem from="1754537898946" duration="3995000" />
+      <workItem from="1754548054657" duration="4302000" />
+      <workItem from="1754615578177" duration="3781000" />
+      <workItem from="1754639350582" duration="1798000" />
+      <workItem from="1754711124166" duration="1199000" />
+      <workItem from="1755482636794" duration="11051000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -326,9 +352,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/main/leetcode/demo2.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -341,15 +367,23 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/project$icon_browser.coverage" NAME="icon_browser Coverage Results" MODIFIED="1752724298115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/ProgramData/anaconda3/envs/Python310/Lib/site-packages/qtawesome" />
-    <SUITE FILE_PATH="coverage/project$zipfile_aes.coverage" NAME="zipfile_aes Coverage Results" MODIFIED="1752723279454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/ProgramData/anaconda3/envs/Python310/Lib/site-packages/pyzipper" />
-    <SUITE FILE_PATH="coverage/project$ZipDir.coverage" NAME="ZipDir Coverage Results" MODIFIED="1752754550021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/zip" />
-    <SUITE FILE_PATH="coverage/project$test.coverage" NAME="test Coverage Results" MODIFIED="1752752186696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/zip" />
-    <SUITE FILE_PATH="coverage/project$main.coverage" NAME="main Coverage Results" MODIFIED="1752717599033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/zip" />
-    <SUITE FILE_PATH="coverage/project$demo.coverage" NAME="demo Coverage Results" MODIFIED="1751440563606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/个性签名demo" />
-    <SUITE FILE_PATH="coverage/project$demo5.coverage" NAME="demo5 Coverage Results" MODIFIED="1751442158985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/pytorch_demos" />
-    <SUITE FILE_PATH="coverage/project$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1752648476015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/pandas_demo" />
+    <SUITE FILE_PATH="coverage/project$demo4.coverage" NAME="demo4 Coverage Results" MODIFIED="1753341256441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/pandas_demo" />
+    <SUITE FILE_PATH="coverage/project$data_structures.coverage" NAME="data_structures Coverage Results" MODIFIED="1753691870028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/pandas_demo" />
+    <SUITE FILE_PATH="coverage/project$ZipDir.coverage" NAME="ZipDir Coverage Results" MODIFIED="1753778852361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/zip" />
+    <SUITE FILE_PATH="coverage/project$test.coverage" NAME="test Coverage Results" MODIFIED="1755497099793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/pillow" />
+    <SUITE FILE_PATH="coverage/project$main.coverage" NAME="main Coverage Results" MODIFIED="1753770660306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1753494874221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/pygame_demos" />
     <SUITE FILE_PATH="coverage/project$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1752717130866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/zip" />
-    <SUITE FILE_PATH="coverage/project$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1752221624380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/pandas_demo" />
+    <SUITE FILE_PATH="coverage/project$PictureOpt.coverage" NAME="PictureOpt Coverage Results" MODIFIED="1755498419366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/pillow" />
+    <SUITE FILE_PATH="coverage/project$demo6.coverage" NAME="demo6 Coverage Results" MODIFIED="1755495670960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/pillow" />
+    <SUITE FILE_PATH="coverage/project$basic_function.coverage" NAME="basic_function Coverage Results" MODIFIED="1754640552080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/pandas_demo" />
+    <SUITE FILE_PATH="coverage/project$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1753771217284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/leetcode" />
+    <SUITE FILE_PATH="coverage/project$icon_browser.coverage" NAME="icon_browser Coverage Results" MODIFIED="1755486839124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/ProgramData/anaconda3/envs/Python310/Lib/site-packages/qtawesome" />
+    <SUITE FILE_PATH="coverage/project$zipfile_aes.coverage" NAME="zipfile_aes Coverage Results" MODIFIED="1752723279454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/ProgramData/anaconda3/envs/Python310/Lib/site-packages/pyzipper" />
+    <SUITE FILE_PATH="coverage/project$demo3__1_.coverage" NAME="demo3 (1) Coverage Results" MODIFIED="1755482843452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/pillow" />
+    <SUITE FILE_PATH="coverage/project$demo.coverage" NAME="demo Coverage Results" MODIFIED="1751440563606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/个性签名demo" />
+    <SUITE FILE_PATH="coverage/project$demo5.coverage" NAME="demo5 Coverage Results" MODIFIED="1753773622019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/leetcode" />
+    <SUITE FILE_PATH="coverage/project$demo3.coverage" NAME="demo3 Coverage Results" MODIFIED="1753771721451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/leetcode" />
+    <SUITE FILE_PATH="coverage/project$demo2__1_.coverage" NAME="demo2 (1) Coverage Results" MODIFIED="1753237537480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/pandas_demo" />
   </component>
 </project>

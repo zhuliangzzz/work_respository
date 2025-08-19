@@ -14,11 +14,10 @@ import sys
 from PyQt5.QtCore import Qt, QSize, pyqtSignal, QThread
 from PyQt5.QtGui import QPixmap, QImage, QIcon, QIntValidator, QCursor, QFont
 from PyQt5.QtWidgets import *
-from PIL import Image, ImageFilter, ImageEnhance, ImageOps
+from PIL import Image, ImageFilter, ImageEnhance
 import qtawesome
 # from qtawesome import icon_browser
 import PictureOptUI as ui
-import CompositeUI as composite_ui
 import res_rc
 
 
@@ -39,7 +38,6 @@ class PictureOpt(QWidget, ui.Ui_Form):
         self.pushButton_contrast.setIcon(qtawesome.icon('ri.contrast-line', color='white'))
         self.pushButton_union.setIcon(qtawesome.icon('mdi.vector-union', color='white'))
         self.pushButton_blend.setIcon(qtawesome.icon('mdi.source-merge', color='white'))
-        self.pushButton_mask.setIcon(qtawesome.icon('ri.device-recover-line', color='white'))
         self.pushButton_select_pic.clicked.connect(self.select_pic)
         self.lineEdit_rotate.setPlaceholderText('输入旋转角度')
         self.lineEdit_rotate.setValidator(QIntValidator())
@@ -58,7 +56,6 @@ class PictureOpt(QWidget, ui.Ui_Form):
         # 拼接/融合
         self.pushButton_union.clicked.connect(lambda: self.toggle_clicked('union'))
         self.pushButton_blend.clicked.connect(lambda: self.toggle_clicked('blend'))
-        self.pushButton_mask.clicked.connect(self.composite)
         self.setStyleSheet('''QPushButton{font:10pt;background-color:#459B81;color:white;} QPushButton:hover{background:#333;}
         QSlider::groove:horizontal {
         border: 1px solid #bbb;
@@ -226,96 +223,6 @@ class PictureOpt(QWidget, ui.Ui_Form):
         else:
             window.signal_to_parent.connect(self.blendPic)
         window.exec_()
-
-    def composite(self):
-        self.dialog = QDialog(self)
-        self.dialog.bg_path = None
-        self.dialog.subject_path = None
-        self.ui_dialog = composite_ui.Ui_Dialog()
-        self.ui_dialog.setupUi(self.dialog)
-        self.dialog.setWindowTitle("图片合成")
-        self.ui_dialog.pushButton_bg_select.clicked.connect(lambda: self.select_bg_subject_pic('bg'))
-        self.ui_dialog.pushButton_subject_select.clicked.connect(lambda: self.select_bg_subject_pic('subject'))
-        self.dialog.setStyleSheet(
-            """QPushButton{font:10pt;background-color:#459B81;color:white;} QPushButton:hover{background:#333;}""")
-        # self.dialog.accepted.connect(self.validate)
-        ok_button = self.ui_dialog.buttonBox.button(QDialogButtonBox.Ok)
-        ok_button.clicked.connect(self.validate)
-        self.dialog.exec_()
-
-
-    def validate(self):
-        # 验证是否选择了图片
-        if not self.dialog.bg_path:
-            QMessageBox.warning(self.dialog, "警告", "请先选择背景图片!")
-            return  # 直接返回，不关闭对话框
-
-        if not self.dialog.subject_path:
-            QMessageBox.warning(self.dialog, "警告", "请先选择主体图片!")
-            return  # 直接返回，不关闭对话框
-
-        # 所有验证通过，手动关闭对话框
-        self.dialog.accept()
-
-        # 执行合成操作
-        self.do_composite()
-
-    def do_composite(self):
-
-        # 打开图片并确保都是RGBA模式（带透明度）
-        background = Image.open(self.dialog.subject_path).convert("RGBA")
-        subject = Image.open(self.dialog.bg_path).convert("RGBA")
-        # 确保两张图片尺寸相同
-        if subject.size != background.size:
-            background = background.resize(subject.size)
-
-        # 获取主体图的alpha通道（透明度通道）
-        subject_alpha = subject.split()[3]
-
-        # 创建一个与背景图相同大小的透明图层
-        cutout_background = Image.new("RGBA", background.size, (0, 0, 0, 0))
-
-        # 将背景图粘贴到透明图层上，但只在主体图不透明的地方显示
-        # 这里使用主体图的alpha通道的反相作为遮罩
-        # 因为我们要"切掉"的是主体图的部分
-        cutout_background.paste(background, (0, 0), ImageOps.invert(subject_alpha))
-
-        # 合并两张图片（切掉背景后的背景图 + 主体图）
-        result = Image.alpha_composite(cutout_background, subject)
-        save_path = self.lineEdit_save_path.text()
-        if not os.path.exists(save_path):
-            os.makedirs(save_path)
-        filenames = []
-        filenames.append(os.path.basename(self.dialog.bg_path))
-        filenames.append(os.path.basename(self.dialog.subject_path))
-        filename = '_'.join([name.rsplit('.')[0].replace('.', '') for name in filenames]) + '.png'
-        try:
-            result.save(os.path.join(save_path, filename))
-        except Exception as e:
-            QMessageBox.warning(self, '保存失败', str(e))
-        else:
-            QMessageBox.information(self, 'tips', '保存成功!')
-
-    def select_bg_subject_pic(self, t):
-        filepath, _ = QFileDialog.getOpenFileName(self.dialog, '选择图片', 'images', '*.png *.jpg *.jepg')
-        # print(filepath)
-        if t == 'bg':
-            label = self.ui_dialog.label_bg
-        else:
-            label = self.ui_dialog.label_subject
-        if filepath:
-            # self.filepath = filepath
-            pixmap = QPixmap(filepath)
-            scaled_pixmap = pixmap.scaled(
-                label.width(), label.height(),
-                Qt.KeepAspectRatio,
-                Qt.SmoothTransformation
-            )
-            label.setPixmap(scaled_pixmap)
-            if t == 'bg':
-                self.dialog.bg_path = filepath
-            else:
-                self.dialog.subject_path = filepath
 
     def unionPic(self, pics):
         print(pics)
