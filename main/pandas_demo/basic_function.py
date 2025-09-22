@@ -128,3 +128,17 @@ df5 = pd.DataFrame(
     }
 )
 print(df5.mode())
+
+
+data = {
+    'Product': ['Apple', 'Banana', 'Apple', np.nan, 'Apple', 'Banana', 'Orange'],
+    'Sales': [100, 150, 100, 200, 100, 150, 300],
+    'Region': ['North', 'North', 'South', 'South', 'North', 'East', 'East']
+}
+
+df = pd.DataFrame(data)
+print(df)
+print(df.mode())
+# 计算每一行的众数
+df_row_mode = df.mode(axis=1)
+print(df_row_mode)

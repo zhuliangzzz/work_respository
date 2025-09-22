@@ -29,3 +29,4 @@ for i in range(times):
     # region = region.transpose(Image.Transpose.ROTATE_90)
     im.paste(region, box)
 im.save('look.png')
+

@@ -8,8 +8,21 @@
    @desc:
 """
 import pandas as pd
-filename = r'E:\sh_script\test\tmp\incam密码编辑\\user_info.xlsx'
-data = pd.read_excel(filename, dtype={'工号': 'Int64'})
-print(data)
-print(data.iloc[:10, [0,1]])
-# print(data[data])
+import numpy as np
+
+# 创建示例数据
+data = np.random.randint(0, 100, 20)
+print("原始数据:", data)
+
+# # 等宽分箱 - 指定边界
+bins = [0, 25, 50, 75, 100]
+result_cut = pd.cut(data, bins)
+print("cut() 结果:", result_cut)
+print("各区间的数量:")
+print(result_cut.value_counts())
+
+# 等频分箱
+# result_qcut = pd.qcut(data, 4)  # 分成4个等频区间
+# print("qcut() 结果:", result_qcut)
+# print("各区间的数量:")
+# print(result_qcut.value_counts())
